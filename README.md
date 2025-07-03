@@ -45,10 +45,9 @@ Dijkstra算法求解最短路径
 
 使用欧式距离估计当前点到终点的代价（h值）。
 
-公式：
-$$
-h=\sqrt{\left(x_{\mathrm{end}}-x_{\mathrm{current}}\right)^2+\left(y_{\mathrm{end}}-y_{\mathrm{current}}\right)^2}
-$$
+公式：  
+$h=\sqrt{\left(x_{\mathrm{end}}-x_{\mathrm{current}}\right)^2+\left(y_{\mathrm{end}}-y_{\mathrm{current}}\right)^2}$  
+
 移动规则：
 
 八方向移动（包括上下左右及对角线方向）。
